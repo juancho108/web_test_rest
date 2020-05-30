@@ -101,7 +101,25 @@ class _HomeScreenState extends State<HomeScreen> {
             color: Colors.blueAccent,
             textColor: Colors.white,
             child: Text('Enviar', style: TextStyle(fontSize: 20)),
-            onPressed: () {},
+            onPressed: () {
+              /*
+              showDialog(
+            context: context,
+            builder: (context) {
+              return AlertDialog(
+                // Retrieve the text the that user has entered by using the
+                // TextEditingController.
+                content: Text(myController.text),
+              );
+            },
+          );
+        },
+        tooltip: 'Show me the value!',
+        child: Icon(Icons.text_fields),
+      ),
+    );
+              */
+            },
           )
         ],
       ),
